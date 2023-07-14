@@ -8,6 +8,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.test.context.SpringBootTest;
 
+
 @SpringBootTest
 class SpringJenkinsApplicationTests {
 	
@@ -17,6 +18,7 @@ class SpringJenkinsApplicationTests {
 	void contextLoads() {
 		
 		logger.info("Testcase executing...");
+		logger.info("Testcase executing second log statement...");
 		
 		assertEquals(true, true);
 	}
